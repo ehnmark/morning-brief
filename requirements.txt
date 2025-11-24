@@ -1,0 +1,6 @@
+agent-framework
+feedparser
+python-dotenv
+httpx
+pyyaml
+pydantic
