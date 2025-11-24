@@ -12,19 +12,7 @@ This is a simple Python application that uses an Agent Framework to generate a m
 ## Example
 
 ```bash
-$ python main.py --date 2025-11-25                                                                                    git:(master|✚2…1 
-2025-11-24T16:06:19 INFO Fetching RSS from https://www.boj.or.jp/rss/whatsnew.xml
-2025-11-24T16:06:19 INFO Fetching RSS from https://www.jpx.co.jp/rss/markets_news.xml
-2025-11-24T16:06:20 INFO Fetching RSS from https://news.web.nhk/n-data/conf/na/rss/cat5.xml
-2025-11-24T16:06:20 INFO Will fetch https://www.jpx.co.jp/news/2040/20251121-01.html
-2025-11-24T16:06:20 INFO Will fetch https://www.jpx.co.jp/equities/products/tpm/issues/index.html
-2025-11-24T16:06:20 INFO Will fetch http://www.boj.or.jp/mopo/mpmdeci/transparency/tra251121a.htm
-2025-11-24T16:06:20 INFO Will fetch http://www.boj.or.jp/research/research_data/reri/index.htm
-2025-11-24T16:06:20 INFO Will fetch https://news.web.nhk/newsweb/na/na-k10014984571000
-2025-11-24T16:06:20 INFO Will fetch https://news.web.nhk/newsweb/na/na-k10014983951000
-2025-11-24T16:07:07 INFO Final Report:
-```
-python main.py                                                                                                                                    git:(master|✚2 
+$ python main.py
 2025-11-24T16:31:54 INFO Fetching RSS from https://news.web.nhk/n-data/conf/na/rss/cat5.xml
 2025-11-24T16:31:55 INFO Fetching RSS from https://www.jpx.co.jp/rss/markets_news.xml
 2025-11-24T16:31:56 INFO Fetching RSS from https://www.boj.or.jp/rss/whatsnew.xml
@@ -43,6 +31,8 @@ python main.py                                                                  
 2025-11-24T16:31:57 INFO Will fetch http://www.boj.or.jp/research/imes/mes/mes_251120.htm
 2025-11-24T16:31:57 INFO Will fetch http://www.boj.or.jp/about/press/koen_2025/ko251120a.htm
 2025-11-24T16:31:57 INFO Will fetch http://www.boj.or.jp/about/services/tame/tame_rate/syorei/hou2512.htm
+```
+
 # Morning Brief: Japanese Equities – 24 November 2025
 
 ## Overall Summary
@@ -73,5 +63,3 @@ Key takeaway: stay attuned to BoJ communications and data releases for any shift
 - ニホンウナギも輸出規制に？ワシントン条約 日本への影響は…: NHK reports that the Washington Convention (CITES) meeting opens on 24 Nov, with proposals to regulate species including the Japanese eel. Japan is lobbying to oppose these proposals. If adopted, eel prices could rise, impacting seafood/agribusiness equities and related consumer-staples stocks, making this a potential market-moving risk for Japanese equities on the session opening. (Date: 2025-11-24) [Japanese eel export restrictions under CITES: Japan’s position](https://news.web.nhk.jp/newsweb/na/na-k10014984571000)
 
 - [OSE,TOCOM]デリバティブの祝日取引の実施について（2025年11月24日）: JPXが2025年11月24日にデリバティブ市場で祝日取引を実施することを発表。OSEとTOCOMの市場に影響を与え、流動性・清算スケジュール・ヘッジング動向に留意が必要。朝のブリーフ用に、取引時間の変動や価格動向の可能性を確認しておくと良い。 [Derivative holiday trading on November 24, 2025 (OSE/TOCOM)](https://www.jpx.co.jp/news/2040/20251121-01.html)
-```
-
