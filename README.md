@@ -2,9 +2,41 @@
 
 This is a simple Python application that uses an Agent Framework to generate a morning brief about Japanese equities. It sources data from the Bank of Japan (BOJ), Japan Exchange Group (JPX), and NHK in a fan-out fashion, collates the results, and produces a Markdown report.
 
+## Workflow
+
+```
+                 +------------+
+                 | dispatcher |
+                 +------+-----+
+                        |
+          +-------------+-------------+
+          |             |             |
+          v             v             v
+      +-------+     +-------+     +-------+
+      | Agent |     | Agent |     | Agent |
+      +---+---+     +---+---+     +---+---+
+          |             |             |
+          +-------------+-------------+
+                        |
+                        v
+                 +------+-----+
+                 |  collater  |
+                 +------+-----+
+                        |
+                        v
+                 +------+-----+
+                 |   Agent    |
+                 +------+-----+
+                        |
+                        v
+               +--------+--------+
+               |  report_writer  |
+               +-----------------+
+```
+
 ## How to run
 
-- Make a Python 3.12 virtual environment and install PIP packages in `dependencies.txt`
+- Make a Python 3.12 virtual environment and install PIP packages in `requirements.txt`
 - Copy `example.env` to `.env` and input your own project and deployment details
 - Run `python main.py` inside the virtual environment
 
